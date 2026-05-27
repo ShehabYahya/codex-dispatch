@@ -1,0 +1,11 @@
+interface:
+  display_name: "Codex Dispatch"
+  short_description: "Orchestrate an external implementer session with structured task packets, monitoring, and diff-review gates."
+  icon_small: "./assets/orchestrator.png"
+  icon_large: "./assets/orchestrator-small.svg"
+  brand_color: "#3B82F6"
+  default_prompt: "Use $codex-dispatch to delegate implementation to an external session with structured task packets, output monitoring, loop detection, and mandatory diff-review gates."
+  backend: "OpenCode (opencode-go/deepseek-v4-pro)"
+
+policy:
+  allow_implicit_invocation: false
